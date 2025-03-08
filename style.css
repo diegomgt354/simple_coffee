@@ -23,7 +23,6 @@ body {
     /* margin: 0 auto; */
     background-image: url(resources/bg-cafe-lg.jpg);
     background-repeat:no-repeat ;
-
     font-weight: 500;
     color: var(--colorText);
     background-color: var(--colorBK);
@@ -32,6 +31,10 @@ body {
     margin: auto;
 }
 .collection-container {
+    background-image: url(resources/vector.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 220px;
     padding-top: 40px;
     width: 600px;
     text-align: center;
@@ -39,7 +42,9 @@ body {
 }
 
 .collection-description{
-     margin-top: 10px;
+    margin-top: 10px;
+    margin-right: 13%;
+    margin-left:  13%;
     font-size: 14px;
     color: var(--allproduct);
 
