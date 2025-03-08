@@ -21,6 +21,9 @@ body {
     font-weight: 100;
     font-style: normal;
     /* margin: 0 auto; */
+    background-image: url(resources/bg-cafe-lg.jpg);
+    background-repeat:no-repeat ;
+
     font-weight: 500;
     color: var(--colorText);
     background-color: var(--colorBK);
@@ -37,7 +40,7 @@ body {
     gap: 40px;
     background-color: var(--colorContenedor);
     padding: 20px;
-    margin: auto;
+    margin: auto ;
     border-radius: 10px;
 }
 
