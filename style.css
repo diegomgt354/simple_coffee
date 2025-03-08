@@ -23,14 +23,57 @@ body {
     /* margin: 0 auto; */
     background-image: url(resources/bg-cafe-lg.jpg);
     background-repeat:no-repeat ;
-
     font-weight: 500;
     color: var(--colorText);
     background-color: var(--colorBK);
     width: 100vh;
     height: 100vh;
     margin: auto;
+}
+.collection-container {
+    background-image: url(resources/vector.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 220px;
+    padding-top: 40px;
+    width: 600px;
+    text-align: center;
+    border-radius: 10px;
+}
 
+.collection-description{
+    margin-top: 10px;
+    margin-right: 13%;
+    margin-left:  13%;
+    font-size: 14px;
+    color: var(--allproduct);
+
+}
+.collection-buttons {
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.primary {
+    background-color: var(--allproduct);
+    color: white;
+}
+
+.secondary {
+    background-color: transparent;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
 
 #contenedor {
