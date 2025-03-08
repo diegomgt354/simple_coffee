@@ -22,14 +22,21 @@ body {
     font-style: normal;
     /* margin: 0 auto; */
     background-image: url(resources/bg-cafe-lg.jpg);
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
+    background-size: contain;
     font-weight: 500;
     color: var(--colorText);
     background-color: var(--colorBK);
-    width: 100vh;
-    height: 100vh;
+    max-width: 100vh;
+    min-height: 100vh;
     margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
+
 .collection-container {
     background-image: url(resources/vector.svg);
     background-repeat: no-repeat;
@@ -41,14 +48,15 @@ body {
     border-radius: 10px;
 }
 
-.collection-description{
+.collection-description {
     margin-top: 10px;
     margin-right: 13%;
-    margin-left:  13%;
+    margin-left: 13%;
     font-size: 14px;
     color: var(--allproduct);
 
 }
+
 .collection-buttons {
     margin-top: 15px;
 }
@@ -76,15 +84,22 @@ body {
     opacity: 0.8;
 }
 
+main {
+    background-color: var(--colorContenedor);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    margin: auto 5%;
+
+}
+
 #contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    background-color: var(--colorContenedor);
     padding: 20px;
-    margin: auto ;
-    border-radius: 10px;
 }
 
 .card {
@@ -162,4 +177,11 @@ body {
 
 .imgstartFill {
     background-image: url(resources/Star_fill.svg)
+}
+
+@media(width<1024px) {
+
+    body {
+        background-image: url(resources/bg-cafe-sm.jpg);
+    }
 }
